@@ -1,0 +1,55 @@
+/* ------------------------------------------------------  Common Global styles ------------------------------------------------------ */
+html{
+    scroll-behavior: smooth;
+}
+*{
+    border: none;
+    background: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    transition: 0.2s ease-in-out;
+}
+body{
+    overflow-x: hidden;
+    background: #FFFFFF;
+    margin: 0 auto;
+}
+.outer-container {
+    max-width: 1784px;
+    margin: auto;
+}
+.container{
+    margin: 0 52px;
+}
+.keeptogether {
+    white-space: nowrap;
+}
+.hidden{
+    display: none;
+}
+/* Scroll bar customized */
+
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgba(147, 149, 150, 0.7); 
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #F24A72;
+  }

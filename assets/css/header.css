@@ -1,0 +1,111 @@
+header{
+    /* position: fixed; */
+    background: #282B2D;
+    width: 100%;
+    z-index: 2333;
+    color: rgba(255, 255, 255, 0.7);
+}
+.header-wrapper{
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 19px;
+    color: rgba(255, 255, 255, 0.7);
+}
+nav{
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.selector-div{
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 48px;
+}
+.header-nav-ul{
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 41px;
+}
+/* ------------------------------------------- NAVIGATION-SECTION STYLES FONTS AND RESPONSIVE WRITTEN HERE  ------------------------------------------- */
+.navigation-section .navigation-wrapper{
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+    padding: 32px 20px;
+}
+.navigation-section .navigation-wrapper .left {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    justify-content: space-between;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr;
+}
+.navigation-section .navigation-wrapper .burger-menu{
+    display: none;
+}
+.navigation-section .navigation-wrapper .left nav ul {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    justify-content: space-between;
+    grid-gap: 80px;
+}
+.navigation-section .navigation-wrapper .right{
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 41.5px;
+}
+.mobile-navigation{
+    max-width: 834px;
+    display: grid;
+    grid-auto-flow: column;
+    padding: 32px 20px;
+    align-items: center;
+    justify-content: space-between;
+    display: none;
+    grid-template-columns: 1.5fr 1fr 1fr;
+}
+.mobile-navigation nav ul {
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 41.5px;
+}
+@media(max-width: 1050px){
+    .navigation-section .navigation-wrapper .left {
+        grid-gap: 100px;
+    }
+    .navigation-section .navigation-wrapper .left nav ul {
+        grid-gap: 20px;
+    }
+}
+@media(max-width: 834px){
+    .navigation-section .navigation-wrapper {
+        display: none;
+    }
+    .navigation-section .mobile-navigation{
+        display: grid;
+    }
+}
+@media(max-width: 720px){
+    .header-wrapper{
+        display: none;
+    }
+    .selector-div, .header-wrapper nav{
+        display: none;
+    }
+    .navigation-section .mobile-navigation {
+        grid-template-columns: auto;
+    }
+    .navigation-section .mobile-navigation > .burgerbar{
+        grid-column: 2;
+    }
+    .navigation-section .mobile-navigation nav{
+        display: none;
+    }
+}
