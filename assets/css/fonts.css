@@ -43,3 +43,20 @@
     width:528px;
     color: rgba(40, 43, 45, 0.7);
 }
+/*  ------------------------------- SECTION 4: FONTS -------------------------------  */
+.section4 .section4-wrapper .child h3{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 34px;
+    color: #FFFFFF;
+}
+.section4 .section4-wrapper .child1 .shop-now{
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: #282B2D;
+}

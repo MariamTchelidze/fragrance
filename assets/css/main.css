@@ -65,3 +65,87 @@
     width: 40vw;
     z-index: 23;
 }
+/*  -------------------  SECTION 3 STYLES START: ------------------- */
+.section3{
+    margin-top: 120px;
+    display: grid;
+    justify-items: center;
+}
+.section3 .section3-wrapper{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-auto-flow: row;
+    grid-gap: 64px;
+    background: rgba(40, 43, 45, 0.02);
+    border-radius: 3.65909px;
+}
+.section3 .section3-wrapper .top-grid{
+    display: grid;
+    width: 100%;
+    justify-content: space-between;
+    grid-auto-flow: column;
+    align-items: center;
+    grid-template-columns: repeat(4, 1fr);
+}
+.section3 .section3-wrapper .bottom-grid{
+    display: grid;
+    width: 100%;
+    margin-left: 136px;
+    justify-content: space-between;
+    grid-auto-flow: column;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+}
+/*  -------------------  SECTION 4 STYLES START: ------------------- */
+.section4{
+    margin-top: 120px;
+    margin-bottom: 120px;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+.section4 .section4-wrapper{
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    /* width: 100%; */
+}
+.section4 .section4-wrapper .child{
+    display: grid;
+    grid-auto-flow: row;
+    align-items: center;
+    justify-content: center;
+    padding: 107px;
+}
+.section4 .section4-wrapper .child1 {
+    position: relative;
+    background-image: url(../images/first-product.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.section4 .section4-wrapper .child1 .shop-now{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 16px 48px;
+    background: #FFFFFF;
+    border-radius: 2px;
+}
+.section4 .section4-wrapper .child2{
+    background-image: url(../images/second-product.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.section4 .section4-wrapper .child3{
+    background-image: url(../images/third-product.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.section4 .section4-wrapper .child4{
+    background-image: url(../images/fourth-product.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}

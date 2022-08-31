@@ -49,3 +49,44 @@
         padding: 12px 32px;
     }
 }
+
+
+
+/*  ------------------------------- SECTION 4: RESPONSIVE ------------------------------- */
+@media(max-width: 1339px){
+    .section4 .section4-wrapper{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+    .section4 .section4-wrapper .child{
+        padding: 80px;
+    }
+    .section4 .section4-wrapper .child1 .shop-now{
+        display: none;
+    }
+}
+@media(max-width: 630px){
+    .section4 .section4-wrapper .child{
+        /* padding: 64px; */
+        height: 20vh;
+        width: 40vw;
+    }
+    .section4 .section4-wrapper .child h3{
+        font-size: 20px;
+    }
+}
+@media(max-width: 470px){
+    .section4 .section4-wrapper{
+        margin-right: 15%;
+    } 
+}
+@media(max-width: 365px){
+    /* .section4 .section4-wrapper{
+        margin-right: 20%;
+    } */
+    .section4 .section4-wrapper .child{
+        padding: 68px;
+        height: 10vh;
+        width: 20vw;
+    }
+}
