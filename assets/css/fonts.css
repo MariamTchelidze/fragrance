@@ -1,156 +1,4 @@
-/* -----------------  axiforma fonts ----------------- */
-.axiforma128{
-    font-family: 'Axiforma';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 128px;
-    /* line-height: 213px; */
-    text-shadow: 2px 2px #ffffff;
-    color: #F24A72;
-
-}
-.axiforma48{
-    font-family: 'Axiforma';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 48px;
-    /* line-height: 80px; */
-    color: #F24A72;
-    text-shadow: 2px 2px #ffffff;
-}
-.axiforma48-black{
-    font-family: 'Axiforma';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 48px;
-    /* line-height: 79px; */
-    color: #282B2D;
-}
-.axiforma40{
-    font-family: 'Axiforma';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 66px;
-    color: #282B2D;
-}
-.axiforma32{
-    font-family: 'Axiforma';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 32px;
-    /* line-height: 52px; */
-    color: #FFFFFF;
-}
-.axiforma32-pink{
-    font-family: 'Axiforma';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 32px;
-    line-height: 51px;
-    color: #F24A72;
-    text-align: center;
-}
-.axiforma32-black{
-    font-family: 'Axiforma';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 32px;
-    line-height: 52px;
-    color: #282B2D;
-}
-.heading-font{
-    font-family: 'Axiforma';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 32px;
-    line-height: 52px;
-    color: #282B2D;
-}
-.axiforma24{
-    font-family: 'Axiforma';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 39px;
-    color: #282B2D;
-}
-.axiforma20{
-    font-family: 'Axiforma';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 33px;
-    color: #282B2D;
-}
-.axiforma20-hover{
-    font-family: 'Axiforma';
-    text-align: center;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    /* line-height: 33px; */
-    color: #FFFFFF;
-}
-.axiforma18-bolder{
-    font-family: 'Axiforma';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 29px;
-    color: #282B2D;
-}
-.axiforma18-grey{
-    font-family: 'Axiforma';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 29px;
-    color: rgba(40, 43, 45, 0.5);
-}
-.sale {
-    color: #F24A72;
-    font-family: 'Axiforma';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 29px;
-}
-.sale-bolder{
-    font-family: 'Axiforma';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 29px;
-    color: #F24A72;
-    text-decoration: none;
-}
-
-.sale-price-grey{
-font-family: 'Axiforma';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 29px;
-color: rgba(40, 43, 45, 0.5);
-text-decoration: line-through;
-}
-.axiforma18{ 
-    font-family: 'Axiforma';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 29px;
-    color: #282B2D;
-}
-.axiforma18-700{
-    font-family: 'Axiforma';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 30px;
-    color: #282B2D;
-}
+/*  -------------------------------  HEADER: FONTS -------------------------------  */
 .axiforma16{
     font-family: 'Axiforma';
     font-style: normal;
@@ -159,113 +7,39 @@ text-decoration: line-through;
     line-height: 25px;
     color: rgba(255, 255, 255, 0.7);
 }
-.SecondaryBtn-font{
-    font-family: 'Axiforma';
+/*  ------------------------------- SECTION 1: FONTS -------------------------------  */
+.section1 .section1-wrapper h2{
+    font-family: 'Lato';
     font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
+    font-weight: 700;
+    font-size: 22px;
     line-height: 26px;
-    color: #282B2D;
-}
-.mainBtn-font{
-    font-family: 'Axiforma';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 26px;
-    color: #282B2D;
-}
-.axiforma16-white{
-    font-family: 'Axiforma';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 26px;
+    text-align: center;
     color: #FFFFFF;
 }
-.axiforma16-feedback-p{
-    font-family: 'Axiforma';
+.section1 .section1-wrapper p{
+    font-family: 'Lato';
     font-style: normal;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 16px;
-    line-height: 26px;
-    color: rgba(40, 43, 45, 0.5);
-    max-width: 521px;
-}
-.axiforma14{
-    font-family: 'Axiforma';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 22px;
-    color: rgba(40, 43, 45, 0.5);
-}
-.axiforma12{
-    font-family: 'Axiforma';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
     line-height: 19px;
     text-align: center;
-    color: rgba(40, 43, 45, 0.7);
-    text-decoration: underline;
+    color: #282B2D;
 }
-/* ----------------- Lato fonts ----------------- */
-.lato80{
+/*  ------------------------------- SECTION 2: FONTS -------------------------------  */
+.section2 .section2-wrapper .left h2{
     font-family: 'Lato';
     font-style: normal;
     font-weight: 700;
     font-size: 80px;
-    line-height: 96px;
+    width: 664px;
     color: #282B2D;
 }
-.lato36{
+.section2 .section2-wrapper .left p{
     font-family: 'Lato';
     font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 43px;
-    color: #282B2D;
-}
-.lato20{
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
+    font-weight: 500;
+    font-size: 16px;
+    width:528px;
     color: rgba(40, 43, 45, 0.7);
 }
-.lato18{
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12.5081px;
-    line-height: 15px;
-    color: #FFFFFF;
-}
-.lato12{
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12.5081px;
-    line-height: 15px;
-    color: #FFFFFF;
-}
-/* ----------------- Poppins fonts ----------------- */
-.poppins18{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 27px;
-    color: #374957;
-}
-.poppins18-white{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 27px;
-    color: #FFFFFF;
-}
-

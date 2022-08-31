@@ -12,21 +12,56 @@
     align-items: center;
     gap: 8px;
 }
-.section1 .section1-wrapper h2{
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 26px;
-    text-align: center;
+/* -------------------  SECTION 2 STYLES START: ------------------- */
+.section2{
+    margin-top: 80px;
+    width: 100%;
+}
+.section2 .section2-wrapper{
+    width: 100%;
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+.section2 .section2-wrapper .left{
+    display: grid;
+    grid-auto-flow: row;
+    align-items: center;
+    gap: 64px;
+    width: 100%;
+}
+.section2 .section2-wrapper .left .text-div{
+    display: grid;
+    grid-auto-flow: row;
+    gap: 24px;
+    align-items: center;
+}
+.section2 .section2-wrapper .left .buttons-flex{
+    display: flex;
+    align-items: space-between;
+    align-items: center;
+    gap: 24px;
+}
+.section2 .section2-wrapper .left .buttons-flex .whiteBtn{
+    padding: 16px 48px;
+    cursor: pointer;
+    background: #E5E5E5;
+    border-radius: 2px;
+    border: 1px solid #061B27;
+    transition: all 0.5ms linear 0s;
+}
+.section2 .section2-wrapper .left .buttons-flex .whiteBtn:hover{
+    background: #282B2D;
     color: #FFFFFF;
 }
-.section1 .section1-wrapper p{
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 19px;
-    text-align: center;
-    color: #282B2D;
+.section2 .section2-wrapper .right{
+    background-image: url(../images/bg-img1.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 50vh;
+    width: 40vw;
+    z-index: 23;
 }

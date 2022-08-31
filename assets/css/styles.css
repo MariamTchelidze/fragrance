@@ -30,6 +30,9 @@ body{
 .hidden{
     display: none;
 }
+.keeptogether{
+    white-space: no-wrap;
+}
 /* Scroll bar customized */
 
 ::-webkit-scrollbar {

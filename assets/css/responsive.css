@@ -1,0 +1,51 @@
+/*  ------------------------------- SECTION 2: RESPONSIVE ------------------------------- */
+@media(max-width: 1185px){
+    .section2 .section2-wrapper .left h2{
+        width: 402px;
+        font-size: 36px;
+    }
+    .section2 .section2-wrapper .left p{
+        width: 416px;
+        font-size: 14px;
+    }
+    .section2 .section2-wrapper .right{
+        height: 30vh;
+        width: 40vw;
+    }
+}
+@media(max-width: 834px){
+    .section2 .section2-wrapper{
+        grid-auto-flow: row;
+        align-items: center;
+        justify-items: center;  
+    }
+    .section2 .section2-wrapper > left{
+        grid-column: 1;
+    }
+    .section2 .section2-wrapper > right{
+        grid-column: 2;
+    }
+    .section2 .section2-wrapper .left{
+        justify-items: center;
+        width: 100%;
+    }
+    .section2 .section2-wrapper .left h2{
+        width: 300px;
+        font-size: 24px;
+        text-align: center;
+    }
+    .section2 .section2-wrapper .left p{
+        width: 300px;
+        font-size: 14px;
+        text-align: center;
+    }
+    .section2 .section2-wrapper .right{
+        width: 100%;
+    }
+    .section2 .section2-wrapper .left .buttons-flex{
+        gap: 8px;
+    }
+    .section2 .section2-wrapper .left .buttons-flex .whiteBtn{
+        padding: 12px 32px;
+    }
+}
