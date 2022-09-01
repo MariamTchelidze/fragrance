@@ -1,0 +1,68 @@
+footer{
+    width: 100%;
+    background: #282B2D;
+}
+.footer-wrapper{
+    padding: 120px 54px;
+    width: 100%;
+    display: grid;
+    grid-auto-flow: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.common{
+    display: grid;
+    grid-auto-flow: row;
+    grid-gap: 16px;
+}
+.common li {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    justify-content: start;
+    grid-gap: 8px;
+}
+.help{
+    display: grid;
+    grid-auto-flow: row;
+    grid-gap: 48px;
+    justify-content: start;
+    align-items: center;
+}
+.footer-fourth-ul{
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 32px;
+    align-items: center;
+    justify-content: start;
+}
+/* ----------------- FOOTER FONTS ----------------- */
+footer .footer-wrapper .footer-first-ul .name{
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    color: #FFFFFF;
+}
+.heading-li{
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+.contact-li{
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.7);
+
+}
+.axiforma16{
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.7);
+}
