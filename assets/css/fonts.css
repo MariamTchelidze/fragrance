@@ -102,4 +102,35 @@
     font-size: 22px;
     color: #282B2D;
 }
-
+/*  ------------------------------- SECTION 7: FONTS -------------------------------  */
+.section7 .section7-wrapper .left-grid h2,
+.section7 .section7-wrapper .right-grid h2{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    color: #FFFFFF;
+}
+.section7 .section7-wrapper .left-grid p,
+.section7 .section7-wrapper .right-grid p{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+.section7 .section7-wrapper .left-grid .circle{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.section7 .section7-wrapper .right-grid span{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #FFFFFF;
+}

@@ -231,6 +231,57 @@
     display: grid;
     grid-auto-flow: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     width: 100%;
+    gap: 24px;
 }
+.section7 .section7-wrapper .left-grid{
+    background-image: url(../images/section7-firstbg-img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 50vh;
+    width: 40vw;
+    padding: 194px;
+    display: grid;
+    grid-auto-flow: row;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+.section7 .section7-wrapper .right-grid{
+    background-image: url(../images/section7-bgimg-second.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 50vh;
+    width: 40vw;
+    padding: 194px;
+    display: grid;
+    grid-auto-flow: row;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    gap: 16px;
+}
+.section7 .section7-wrapper .left-grid .circle{
+    background: #282B2D;
+    position: absolute;
+    top: 33px;
+    left: 28px;
+    width: 150px;
+    height: 150px;
+    padding: 50px 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    border-radius: 50%;
+}
+.section7 .section7-wrapper .right-grid span{
+    padding: 12px 32px;
+    background: #F24A72;
+    border-radius: 2px;
+}
+
+
