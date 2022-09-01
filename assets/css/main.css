@@ -149,3 +149,72 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+/*  -------------------  SECTION 5 STYLES START: ------------------- */
+.section5{
+    margin-bottom: 120px;
+    display: grid;
+    justify-items: center;
+}
+.section5 .section5-wrapper{
+    display: grid;
+    grid-auto-flow: row;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    gap: 48px;
+}
+.section5 .section5-wrapper .section5-grid{
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+.section5 .section5-wrapper .section5-grid .section5-child .main-img{
+    width: 100%;
+    height: auto;
+}
+.section5 .section5-wrapper .section5-grid button{
+    cursor: pointer;
+}
+.section5 .section5-wrapper .section5-grid .child1,
+.section5 .section5-wrapper .section5-grid .child2,
+.section5 .section5-wrapper .section5-grid .child3,
+.section5 .section5-wrapper .section5-grid .child4{
+    position: relative;
+}
+.section5 .section5-wrapper .section5-grid .child1 .heart-img,
+.section5 .section5-wrapper .section5-grid .child2 .heart-img,
+.section5 .section5-wrapper .section5-grid .child3 .heart-img,
+.section5 .section5-wrapper .section5-grid .child4 .heart-img{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+.section5 .section5-wrapper .section5-grid .child1 .add-to-cart{
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF; 
+    padding: 16px 48px;
+    background: #282B2D;
+    border-radius: 2px;
+    position: absolute;
+    bottom: 25%;
+    left: 20%;
+}
+.section5 .section5-wrapper .section5-grid .child1 .description{
+    display: grid;
+    grid-auto-flow: row;
+    align-items: flex-start;
+    gap: 8px;
+}
+.section5 .section5-wrapper .section5-grid .child1 .description .stars{
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: start;
+    align-items: flex-start;
+    gap: 5px;
+}

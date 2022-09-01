@@ -81,12 +81,32 @@
     } 
 }
 @media(max-width: 365px){
-    /* .section4 .section4-wrapper{
-        margin-right: 20%;
-    } */
     .section4 .section4-wrapper .child{
         padding: 68px;
         height: 10vh;
         width: 20vw;
+    }
+}
+/*  ------------------------------- SECTION 5: RESPONSIVE ------------------------------- */
+@media(max-width: 1440px){
+    .section5 .section5-wrapper .section5-grid .section5-child .description h5{
+        font-size: 20px;
+    }
+}
+@media(max-width:1339px){
+    .section5 .section5-wrapper .section5-grid .child4,
+    .section5 .section5-wrapper .section5-grid .child2 .absolute-p,
+    .section5 .section5-wrapper .section5-grid .child1 .add-to-cart{
+        display: none;
+    }
+}
+@media(max-width: 1120px){
+    .section5 .section5-wrapper .section5-grid .next-prev{
+        display: none;
+    }
+}
+@media(max-width: 834px){
+    .section5 .section5-wrapper .section5-grid .section5-child .description p{
+        font-size: 18px;
     }
 }
