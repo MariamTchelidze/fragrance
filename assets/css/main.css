@@ -170,6 +170,8 @@
     justify-content: space-between;
     align-items: center;
     gap: 32px;
+}
+.scroll-wrapper{
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
 }
@@ -220,4 +222,16 @@
     justify-content: start;
     align-items: flex-start;
     gap: 5px;
+}
+/*  -------------------  SECTION 6 STYLES START: ------------------- */
+.section6{
+    margin-bottom: 120px;
+}
+.section6 .section6-wrapper{
+    display: grid;
+    grid-auto-flow: row;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    gap: 48px;
 }

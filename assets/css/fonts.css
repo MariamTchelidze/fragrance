@@ -79,7 +79,6 @@
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
-    line-height: 27px;
     color: #FFFFFF;
 }
 .section5 .section5-wrapper .section5-grid .section5-child .description h5{
@@ -87,7 +86,6 @@
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
-    line-height: 29px;
     color: #282B2D;
 }
 .section5 .section5-wrapper .section5-grid .section5-child .description p{
@@ -95,7 +93,6 @@
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    line-height: 24px;
     color: #282B2D;
 }
 .section5 .section5-wrapper .section5-grid .section5-child .description .price-p{
@@ -103,9 +100,6 @@
     font-style: normal;
     font-weight: 700;
     font-size: 22px;
-    line-height: 26px;
     color: #282B2D;
 }
-/* .half-star{
-    fill: #FFFFFF;
-} */
+
