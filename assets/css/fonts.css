@@ -134,3 +134,36 @@
     font-size: 18px;
     color: #FFFFFF;
 }
+/*  ------------------------------- SECTION 8: FONTS -------------------------------  */
+.section8 .section8-wrapper .heading-div h3{
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    color: #282B2D;
+    text-align: center;
+}
+.section8 .section8-wrapper .heading-div h4{
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    width: 628px;
+    color: rgba(40, 43, 45, 0.7);
+}
+.section8 .section8-wrapper form button{
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.section8 .section8-wrapper form input::placeholder{
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(40, 43, 45, 0.5);
+}

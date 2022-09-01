@@ -202,3 +202,47 @@
         padding: 150px;
     }
 }
+/*  ------------------------------- SECTION 8: RESPONSIVE ------------------------------- */
+@media(max-width: 650px){
+    .section8{
+        border: none;
+    }
+    .section8 .section8-wrapper form{
+        grid-auto-flow: row;
+        gap: 8px;
+    }
+    .section8 .section8-wrapper form input,
+    .section8 .section8-wrapper form button{
+        width: 100%;
+    }
+    .section8 .section8-wrapper form input::placeholder{
+        display: none;
+    }
+    .section8 .section8-wrapper{
+        justify-items: start;
+    }
+    .section8 .section8-wrapper .heading-div{
+        justify-items: start;
+        align-items: flex-start;
+        justify-content: start;
+    }
+    .section8 .section8-wrapper .heading-div h3{
+        width: 350px;
+        text-align: left;
+        
+    }
+    .section8 .section8-wrapper .heading-div h4{
+        width: 343px;
+        text-align: left;
+    }
+}
+@media(max-width: 360px){
+    .section8 .section8-wrapper .heading-div h3{
+        width: 277px;
+        font-size: 19px;
+    }
+    .section8 .section8-wrapper .heading-div h4{
+        width: 288px;
+        font-size: 12px;
+    }
+}

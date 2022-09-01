@@ -283,5 +283,45 @@
     background: #F24A72;
     border-radius: 2px;
 }
-
-
+/*  -------------------  SECTION 8 STYLES START: ------------------- */
+.section8{
+    margin-top: 180px;
+    border: 1px solid rgba(147, 149, 150, 0.7);
+    border-radius: 4px;
+    min-height: 450px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+.section8 .section8-wrapper{
+    display: grid;
+    grid-auto-flow: row;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 40px;
+}
+.section8 .section8-wrapper .heading-div{
+    display: grid;
+    grid-auto-flow: row;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 16px;
+}
+.section8 .section8-wrapper form{
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.section8 .section8-wrapper form input{
+    border: 1px solid rgba(40, 43, 45, 0.7);
+    border-radius: 2px;
+    padding: 26px 150px;
+}
+.section8 .section8-wrapper form button{
+    padding: 25px 68px;
+    background: #282B2D;
+    border: 1px solid rgba(40, 43, 45, 0.7);
+    border-radius: 2px;
+}
