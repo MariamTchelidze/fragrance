@@ -165,10 +165,13 @@
 }
 .section5 .section5-wrapper .section5-grid{
     display: grid;
+    width: 100%;
     grid-auto-flow: column;
     justify-content: space-between;
     align-items: center;
     gap: 32px;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
 }
 .section5 .section5-wrapper .section5-grid .section5-child .main-img{
     width: 100%;
