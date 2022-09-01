@@ -223,15 +223,14 @@
     align-items: flex-start;
     gap: 5px;
 }
-/*  -------------------  SECTION 6 STYLES START: ------------------- */
-.section6{
+/*  -------------------  SECTION 7 STYLES START: ------------------- */
+.section7{
     margin-bottom: 120px;
 }
-.section6 .section6-wrapper{
+.section7 .section7-wrapper{
     display: grid;
-    grid-auto-flow: row;
-    justify-content: center;
-    justify-items: center;
+    grid-auto-flow: column;
     align-items: center;
-    gap: 48px;
+    justify-content: space-between;
+    width: 100%;
 }
