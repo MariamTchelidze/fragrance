@@ -175,6 +175,11 @@
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
 }
+/* scroll bar should be invisible but functional */
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
 .section5 .section5-wrapper .section5-grid .section5-child .main-img{
     width: 100%;
     height: auto;
