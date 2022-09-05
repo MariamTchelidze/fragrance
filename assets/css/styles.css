@@ -35,9 +35,9 @@ body{
 }
 /* Scroll bar customized */
 
-::-webkit-scrollbar {
-    width: px;
-  }
+/* ::-webkit-scrollbar {
+    width: 0;
+  } */
   
   /* Track */
   /* ::-webkit-scrollbar-track {
