@@ -51,8 +51,15 @@
 }
 
 /*  ------------------------------- SECTION 3: RESPONSIVE ------------------------------- */
-@media(max-width: 960px){
-    
+@media(max-width: 750px){
+    .section3 .section3-wrapper .top-grid img,
+    .section3 .section3-wrapper .bottom-grid img{
+        height: auto;
+        width: 100%;
+    }
+    .section3 .section3-wrapper .top-grid .item4{
+        max-width: 55px;
+    }
 }
 
 /*  ------------------------------- SECTION 4: RESPONSIVE ------------------------------- */
